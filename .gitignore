@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+dist/android/_Microsoft.Android.Resource.Designer.dll
+
+*.user
+*.suo
+.vs/
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets / local
+**/appsettings.Local.json
+**/google-services.json
+**/fcm-service-account.json
+.env
+.env.*
+
+# IDE / AI local (no subir)
+.cursor/
+.idea/
+*.plan.md
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# PC publish: keep only Windows natives in git
+dist/pc/runtimes/linux-*/
+dist/pc/runtimes/osx/
+dist/pc/runtimes/osx-*/
